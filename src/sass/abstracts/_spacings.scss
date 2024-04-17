@@ -1,0 +1,13 @@
+@use "functions" as *;
+
+$hero-padding: 20rem;
+$section-padding: 7rem;
+
+$card-body-padding: 5rem; // 80px
+
+$grid-gap: size(24);
+$flex-group-gap: size(16);
+
+$container-inline-padding: 1rem;
+$container-max-width: 77.75rem; // 1244px
+$container-max-width-wide: 100rem; // 1625px
