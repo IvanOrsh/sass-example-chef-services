@@ -3,7 +3,7 @@
 $hero-padding: clamp(15rem, 15vh, 20rem);
 $section-padding: clamp(3rem, 10vh, 7rem);
 
-$card-body-padding: 5rem; // 80px
+$card-body-padding: clamp(2rem, 3.5vw, 5rem); // 80px
 
 $grid-gap: size(24);
 $flex-group-gap: size(16);
