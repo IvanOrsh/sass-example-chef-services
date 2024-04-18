@@ -4,56 +4,35 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>Chef's necessities</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="/sass/main.scss" />
   </head>
   <body>
-    <section class="section | bg-neutral-200">
-      <header class="section-heading">
-        <h2 class="fs-800">This will be my title</h2>
-        <p class="fs-600 uppercase">This is a subtitle right here</p>
-      </header>
+    <header class="primary-header | margin-block-start-24 bg-neutral-900">
+      <img
+        class="logo | mx-auto"
+        src="assets/logo.svg"
+        alt="Chef Jonny's logo"
+      />
 
-      <p>Lorem, ipsum dolor.</p>
-      <p>Similique, officia accusantium!</p>
-      <p>Perferendis, sequi nulla.</p>
-    </section>
+      <nav class="primary-navigation | margin-block-start-24">
+        <ul class="flex-group mx-auto">
+          <li><a href="#about">About</a></li>
+          <li><a href="#meals">Meals</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+        </ul>
+      </nav>
+    </header>
 
-    <section class="text-center section | bg-neutral-900 clr-neutral-100">
-      <header class="section-heading" data-decoration="true">
-        <h2 class="fs-800">This will be my title</h2>
-        <p class="fs-600 uppercase">This is a subtitle right here</p>
-      </header>
+    <main></main>
 
-      <p>Lorem, ipsum dolor.</p>
-      <p>Similique, officia accusantium!</p>
-      <p>Perferendis, sequi nulla.</p>
-    </section>
-
-    <section class="section | bg-neutral-200">
-      <header class="section-heading">
-        <h2 class="fs-800">This will be my title</h2>
-        <!--
-        <p class="fs-600 uppercase">This is a subtitle right here</p>
-        -->
-      </header>
-      <div class="even-columns">
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem
-          provident totam quibusdam neque dolore omnis illo vel commodi in
-          adipisci.
-        </p>
-        <p>
-          Possimus odio voluptate ratione nostrum aliquam. Asperiores aliquam
-          ipsum est ipsam magnam et! Numquam officia neque ullam consequuntur
-          perferendis odit.
-        </p>
-        <p>
-          Dolor illum ipsa magni, voluptates quod quas? Tempore, eveniet autem.
-          Minima fugiat non quo omnis, neque in aliquam? Molestiae, soluta.
-        </p>
-      </div>
-    </section>
+    <footer></footer>
 
     <script type="module" src="/main.js"></script>
   </body>
