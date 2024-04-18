@@ -1,6 +1,10 @@
 @use "../abstracts" as *;
 
-.section-heading {
+.section-header {
+  h2 {
+    margin-block-end: size(20);
+  }
+
   &:has(p) {
     margin-block-end: size(36);
   }
